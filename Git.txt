@@ -56,3 +56,20 @@ git rebase master --> actual clean code
 rebase gose child to parent vvvimp
 
 ---------------------------------------------------------
+coonect with ssh
+
+ssh-keygen
+
+cat <path seen th ssh key genration command>
+
+settings 
+add ssh key add <copy above cmd output>
+
+ssh-T gauravt@gmail.command
+
+-------------------------------------------------------------
+
+git checkout firstbranch
+
+git push origin firstbranch --> pushing to the firstbranch not in amaster 
+
