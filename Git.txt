@@ -1,0 +1,58 @@
+git init
+
+chkbox --> initialise this file with readme.md
+
+git remote add origin "<git ka link>"
+
+git pull origin master
+
+git status --> shows which files are added and which files are in change and ready to push
+
+git add <nameoffile.extention>--> add files to your index
+
+git commit -m "message" --> commiting to the changes
+
+git commit -a -m "<add all files at once>"
+
+git log
+-------------------------------------------------------------------------------------------------------
+
+Git branch firstbranch --> creating first  empty branch 
+
+git checkout firstbranch --> switchto first branch having master code in it 
+
+git add <nameoffile.extention>--> add files to your index
+
+git commit -m "add to branch"
+
+clear
+
+------------------------------
+
+merge first branch to master branch
+
+git merge firstbranch
+
+<merge is done when file was not their in the repo>
+
+if it exist and we made changes in the firstbranch and we have to merge those changes then do the following...
+
+cat file name --> shows the modification...
+
+----------------------------------------------
+
+my question what is a difference btween git fetch and git pull...?
+
+
+rebasing
++++++++++
+
+you are in master then take checkout with first branch
+
+git checkout firstbranch
+
+git rebase master --> actual clean code
+
+rebase gose child to parent vvvimp
+
+---------------------------------------------------------
